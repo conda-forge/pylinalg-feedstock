@@ -32,7 +32,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/pygfx/pygfx
+  home: https://github.com/pygfx/pylinalg
   summary: Linear algebra utilities for Python
   license: MIT
   license_file: LICENSE
