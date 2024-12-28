@@ -1,4 +1,4 @@
-{% set version = "0.5.1" %}
+{% set version = "0.6.0" %}
 
 package:
   name: pylinalg
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pylinalg/pylinalg-{{ version }}.tar.gz
-  sha256: 419d06749d65534f0fcc37368d250f7c5292d523a43cfc5c9160ea8b18a03690
+  sha256: 2811bf5ba5ce77cfebb48c2f7c3f8e0d5778b05a222fed01ce8940f3ec46ec69
 
 build:
   noarch: python
@@ -32,7 +32,7 @@ test:
     - pip check
 
 about:
-  home: https://github.com/pygfx/pygfx
+  home: https://github.com/pygfx/pylinalg
   summary: Linear algebra utilities for Python
   license: MIT
   license_file: LICENSE
