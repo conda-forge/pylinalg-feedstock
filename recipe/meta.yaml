@@ -1,4 +1,4 @@
-{% set version = "0.6.5" %}
+{% set version = "0.6.6" %}
 
 package:
   name: pylinalg
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pylinalg/pylinalg-{{ version }}.tar.gz
-  sha256: 8551cb2e744bb2c2880d976bca28d9fa327b22bd65c360bbe15cc89c289ba3ad
+  sha256: 61b7f01662b7c6686e6ef02935fc0aac4748fd49b46425aa1c792695d15c5827
 
 build:
   noarch: python
